@@ -1,45 +1,58 @@
 # Treasure Hunt
-Ceci est le premier projet jeu vidéo auquel j'ai participé. 
+This is the first video game project in which I participated.
 
-C'est un jeu d'aventure / puzzle où le but est de trouver 5 enveloppe qui contiennt chacune une lettre qui forme un mot permettant d'ouvrir le coffre final. 
+This is an adventure / puzzle game where the goal is to find 5 envelopes that each contain a letter that forms a word to open the final chest.
 
-![Title](./img/title.png)
+You are in a sort of open world at the bottom of a mountain.
 
-Dévelopé avec Unity en C#, par 2 personnes.
+<img src="./Img/title.png" alt="Title" width="50%" />
 
-## Le jeu
-La **première** enveloppe est donnée tout de suite au joueur et elle lui indique ce qu'il doit faire.
+## Context
 
-La **deuxième** est donnée lorsque le joueur sort de la première zone : un **labyrinthe**
+Developped in a special week "Summer University" during my Bachelor.
 
-![Labyrinthe](./img/labyrinthe.png)
+Developped with Unity in C# during 1 week.
 
-A la sortie de ce dernier, nous entrons dans un "open world" avec 4 destinations possible : `Village`, `Mountain`, `Castle` ou `End House`. Les trois premières sont d'autres défis alors que la dernière est la fin du jeu.
+Team : 
+ - Miguel Mendes
+ - Christophe Fracheboud
 
-Une des suites possible est dont le village. 
 
-![village](./img/village.png)
+## Game
+The **first** envelope is given immediatly to the player and tells him what to do. Like the controls and what is his goal.
 
-Quand on arrive au village, il y a une personne a terre qui a besoin d'aide pour retrouver sa maison. Afin de trouver la bonne maison, il faut parler au autres habitants, mais ceux-ci répondront par "Je vis a côté d'Eric mais pas dans la maison à la porte brune" ou encore "Je vis loin de la maison d'Alex". Le but est donc, à l'aide ces indices de trouver la bonne maison. A la fin on obtient une enveloppe.
+The **second** is given when the player leaves the first area : a **labyrinth**
 
-Vienne ensuite les deux autres zone `Mountain` et `Castle`. Pour y accéder il va falloir monter dans la montagne. 
+<img src="./Img/labyrinth.png" alt="Labyrinth" width="50%" />
 
-Le jeu de la `Mountain` est le suivant : 
+At the exit of the latter, we enter an "open world" with 4 possible destinations : `Village`, `Mountain`, `Castle` ou `End House`. The first three are other challenges while the last is where the end of the game append.
 
-![mountain](./img/mountain.png)
+One of the possible continuations is thus the village.
 
-Il s'agit d'un mini-jeu où le but est de rouler sur tout les cubes rouge à l'aide de la boule blanche.
+<img src="./Img/village.png" alt="Village" width="50%" />
 
-Le dernier jeu est un jeu où le but est de mettre les cubes de couleur sur le sol de la meme couleur
+When we arrive at the village, there is a person on the ground who needs help to find his house. In order to find the right house, you have to talk to the other inhabitants, but they will answer with "I live next to Eric but not in the house with the brown door" or "I live far from Alex's house". The goal is to find the right house using this clues. At the end we get an envelope. 
 
-![castle](./img/castle.png)
+Then come the other 2 zones `Mountain` et `Castle`. To get there, you have to go up the mountain.
 
-Il y a 5 niveaux qui augmente en difficulé (et en taille pour les deux derniers)
+The game of the `Mountain` is the next one :
 
-## La fin du jeu
+<img src="./Img/mountain.png" alt="Mountain" width="50%" />
 
-Un fois les 5 enveloppes en main, on peut se diriger vers la zone final. 
+This is a mini-game where the goal is to roll over all the red cubes using the white ball.
 
-![end](./img/the_end.png)
+In the last zone `Castle`, you will find the last game to win an envelope.
 
-C'est une petite maison dans laquel se trouve un coffre. Afin de l'ouvrir, il faut s'aider des 5 enveloppes ; elles contiennent toute une lettre qui assemblée dans le bon ordre forme un mot qui permet de déverouiller le coffre et d'accéder aux crédits de fin.
+In this last game, your goal is to put the colored cubes on the ground of the same color.
+
+<img src="./Img/castle.png" alt="Castle" width="50%" />
+
+There are 5 levels which increase in difficulty (and size for the last two). They are formed in which way you learn the basics before having a real challenge.
+
+## End game
+
+Once the 5 envelopes in hands, we can move towards the final zone.
+
+<img src="./Img/the_end.png" alt="End" width="50%" />
+
+This is a small house in which you'll find a chest. In order to open it, you have to use the 5 envelopes ; each contain a letter, which assembled in the correct order forms a word. This word allows you to unlock the chest and access the end credits.
